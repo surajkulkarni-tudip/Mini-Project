@@ -1,0 +1,984 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+
+
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+#main-div
+{
+	border-top:1.5px solid red;
+	max-width: 100%;
+	
+}
+
+
+#header
+{
+	height: 8%;
+	width: 100%;
+	margin-bottom: 0px;
+	clear: both;
+}
+
+#john_henry_poster1
+{
+	float:left;
+	padding-top: 10px;	
+	padding-left: 20px; 
+	padding-right: 40px;
+	padding-bottom: 5px;
+}
+
+
+#header ul
+{
+	list-style: none;
+
+}
+
+
+
+#header ul li a
+{
+	float:left;
+	/*padding-top: 25px;
+	padding-left: 20px;*/
+	padding:0px 40px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+
+	color:black;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+
+ 
+}
+
+
+#header ul li a:hover
+{
+	background: #536272;	
+}
+
+
+#middle_background_image
+{
+	
+	float: left;
+	height:80%;
+	width:100%;
+	background: url('middle_background_image.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#insert_placeholder
+{
+	position: relative;
+	top: 5%;
+}
+
+h1
+{
+	color: rgb(255, 255, 255);
+	padding-left: 48%;
+	font-size: 20px;
+	
+	text-decoration: none;
+
+	line-height: 1.055;
+	padding-top: 170px;
+
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+}
+
+p
+{
+	
+	color: rgb(255, 255, 255);
+	padding-left: 48%;
+	line-height: 1.556;
+
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+
+#learn_more
+{
+	background: red;
+	
+	border-radius: 18px;
+	border-style: none;
+  	padding:6px;
+  	width:130px;
+  	color: white;
+  	height: 30px;
+
+  	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+
+}
+
+#search_div
+{
+	position:relative;
+	float:left;
+	height:10%;
+	width:100%;
+	background-color: black;
+}
+
+
+#what_can_we
+{
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 30px;
+	width:600px;
+	padding-left: 6px;
+	position:relative;
+	left:200px;
+	margin-right: 5px;
+	border-style: none;
+}
+
+
+#search_button
+{
+	background: red;
+	height: 30px;
+	border-radius: 18px;
+	border-style: none;
+  	position:relative;
+  	left: 210px;
+  	width:115px;
+  	color: white;
+  	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*
+#bottom_images_headings_div
+{
+	height:10%;
+	width:100%;
+
+}
+
+#bottom_images_headings_div ul li a
+{
+	float:left;
+	padding-left:55px;
+	padding-top: 20px;
+	color:black;
+	text-decoration: none;
+	font-size: 20px;
+
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+}
+
+*/
+
+
+/*
+#products
+{
+	
+}
+
+#services
+{
+	padding-left:25%;
+}
+
+#who_we_are
+{	
+	padding-left:50%;
+}
+
+#training_resources
+{
+	padding-left:70%;
+}
+
+/* END OF BOTTOM IMAGES HEADINGS*/
+
+/* START OF BOTTOM IMAGES */
+
+
+/*
+#botttom_images
+{
+
+	
+	height: 40%;
+	width:100%;
+	float:left;
+
+}
+
+#products_image
+{
+	height:28.5%;
+	width:25%;
+}
+
+#services_image
+{
+	height:28.5%;
+	width:24%;
+}
+
+#who_we_are_image
+{
+	padding-left: 0px;
+	height:29%;
+	width:25%;
+
+}
+
+#training_resources_background_image
+{
+	height:29.5%;
+	width:25%;
+	background: url('training_resources.png');
+	background-repeat: no-repeat;	
+	float:right;
+	margin-top: 4px;
+}
+
+#chat_now
+{
+	position:relative;
+	top:80px;
+	left:140px;
+	background: red;
+	color:white;
+	border-style: none;
+	width:200px;
+	border-radius: 4px;
+	height:35px;
+
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+*/
+
+
+
+
+#bottom_images_div
+{
+	clear:both;
+	height: 40%;
+	width: 100%;
+	float:left;
+}
+
+
+
+
+#products_div
+{
+	text-align: center;
+	height:100%;
+	width:25%;
+	float:left;
+}
+
+#products_heading
+{
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+	color:black;
+	padding-top: 5%;
+	height:20%;
+	width: 100%;
+}
+
+#products_image
+{
+	height:80%;
+	width:100%;
+}
+
+
+#services_div
+{
+	text-align: center;
+	height:100%;
+	width:25%;
+	float:left;
+}
+#services_heading
+{
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+	color:black;
+	padding-top: 5%;
+	height:20%;
+	width:100%;
+}
+#services_image
+{
+	height: 80%;
+	width:100;
+}
+
+#who_we_are_div
+{
+	text-align: center;
+	height:100%;
+	width:25%;
+	float:left;
+}
+#who_we_are_heading
+{
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+	color:black;
+	padding-top: 4.2%;
+	height:20%;
+	width:100%;
+}
+#who_we_are_image
+{
+	height: 80%;
+	width:100;
+}
+
+
+#training_resources_div
+{
+	text-align: center;
+	height:100%;
+	width:25%;
+	float:left;
+}
+#training_resources_heading
+{
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+	color:black;
+	padding-top: 5%;
+	height:20%;
+	width:100%;
+}
+
+#training_resources_background_image
+{
+	
+	height: 80%;
+	width:100%;
+	
+}
+
+#chat_now
+{
+	float: left;
+	
+	position:absolute;
+	top:125%;
+	left:92%;
+	
+	background: red;
+	color:white;
+	border-style: none;
+	/*width:150px;*/
+	border-radius: 4px;
+	height:5%;
+	width: 8%;
+	/*
+	height:35px;*/
+
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+
+
+
+#services_image
+{
+	height:80%;
+	width:100%;
+}
+
+#who_we_are_image
+{
+	height:80%;
+	width:100%;
+
+}
+
+
+
+
+
+#footer_background_image_div
+{
+	background: url('footer_background_image.png');
+	background-repeat: no-repeat;
+	height: 30%;
+	width: 100%;
+	float:left;
+	background-size: 100% 100%;
+}
+
+
+
+
+#footer_background_image_div ul 
+{
+	list-style: none;	
+}
+
+
+#footer_background_image_div ul li a
+{
+	float:left;
+	padding-top: 20px;
+	padding-left: 35px;
+	line-height: 1.063;
+	text-decoration: none;
+		
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+}
+.white a
+{
+	color:white;
+}
+.black a
+{
+	color:black;
+}
+
+/*
+#footer_products a
+{
+	color:white;
+	padding-left: 140px;
+		
+}
+#footer_products
+{
+	
+	padding-left: 140px;
+		
+}**********/
+
+
+
+/*
+#footer_services
+{
+	padding-left: 120px;
+	color:white;
+}
+
+#footer_training_resources
+{
+	color:white;	
+	
+}
+
+#footer_who_we_are
+{
+	color:white;
+}
+
+
+#footer_contact
+{
+	color:white;
+}
+
+#footer_catalog
+{
+	color:red;
+}
+
+#footer_careers
+{
+	color:black;
+}
+#footer_maintenance_plans
+{
+	color:black;
+}
+
+*/
+
+
+
+/*
+
+
+
+
+START OF RESPONSIVE DESIGN
+
+moblie 320
+width
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px)
+{
+	#header
+{
+	height: 70%;
+	width: 100%;
+	margin-bottom: 0px;
+	clear: both;
+}
+
+#john_henry_poster1
+{
+	float:none;
+
+	width: 80%;
+	padding-left: 20%;
+	
+	/*clear: both;
+	
+	padding-top: 10px;	
+	padding-left: 20px; 
+	padding-right: 40px;
+	padding-bottom: 5px;
+	position: relative;
+	left: 30%;*/
+	
+}
+
+
+#header ul
+{
+	list-style: none;
+
+}
+
+
+#header ul li a
+{
+	/*float:left;
+	padding-top: 25px;
+	padding-left: 20px;
+	color:black;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Titillium";*/
+	float: none;
+	padding-left: 20%;
+	display: block;
+	margin: 2%;
+
+
+}
+
+
+
+
+
+#middle_background_image
+{
+	
+	/*float:left;	
+	height:80%;
+	width:100%;
+	background: url('middle_background_image.png');
+	background-repeat: no-repeat;*/
+
+	float: left;
+	height: 85%;
+	
+}
+
+#insert_placeholder
+{
+	position: relative;
+	top: 5%;
+	
+}
+
+
+
+
+h1
+{
+	/*color: rgb(255, 255, 255);
+	
+	padding-left: 48%;
+	font-size: 20px;
+	font-family: "Titillium";
+	text-decoration: none;
+
+	line-height: 1.055;
+	padding-top: 170px;
+	
+
+	*/
+	display: none;
+	
+
+}
+
+p
+{
+	font-family: "Titillium";
+	color: rgb(255, 255, 255);
+	padding-left: 48%;
+	line-height: 1.556;
+	position: relative;
+	top: 300px;
+}
+
+
+#learn_more
+{
+	background: red;
+	
+	border-radius: 20px;
+	border-style: none;
+  	/*padding:6px;*/
+  	width:60%;
+  	color: white;
+  	height: 6%;
+
+}
+
+#search_div
+{
+	position:relative;
+	float:left;
+	height:10%;
+	width:96%;
+	background-color: black;
+	padding-left: 4%;
+}
+
+
+#what_can_we
+{
+	/*height: 30px;
+	margin-top: 20px;
+	border-radius: 30px;
+	width:600px;
+	padding-left: 6px;
+	position:relative;
+	left:200px;
+	margin-right: 5px;
+	border-style: none;*/
+	height:50%;
+	width:40%;
+
+}
+
+
+#search_button
+{
+	background: red;
+	height: 30px;
+	border-radius: 18px;
+	border-style: none;
+  	position:relative;
+  	left: 210px;
+  	width:115px;
+  	color: white;
+}
+
+
+
+
+#bottom_images_div
+{
+	clear:both;
+	height: 40%;
+	width: 100%;
+	float:left;
+}
+
+
+
+
+#products_div
+{
+	text-align: center;
+	height:100%;
+	width:25%;
+	float:left;
+}
+
+#products_heading
+{
+	color:black;
+	padding-top: 5%;
+	height:20%;
+	width: 100%;
+}
+
+#products_image
+{
+	height:80%;
+	width:100%;
+}
+
+
+#services_div
+{
+	text-align: center;
+	height:100%;
+	width:25%;
+	float:left;
+}
+#services_heading
+{
+	color:black;
+	padding-top: 5%;
+	height:20%;
+	width:100%;
+}
+#services_image
+{
+	height: 80%;
+	width:100;
+}
+
+#who_we_are_div
+{
+	text-align: center;
+	height:100%;
+	width:25%;
+	float:left;
+}
+#who_we_are_heading
+{
+	color:black;
+	padding-top: 4.2%;
+	height:20%;
+	width:100%;
+}
+#who_we_are_image
+{
+	height: 80%;
+	width:100;
+}
+
+
+#training_resources_div
+{
+	text-align: center;
+	height:100%;
+	width:25%;
+	float:left;
+}
+#training_resources_heading
+{
+	color:black;
+	padding-top: 5%;
+	height:20%;
+	width:100%;
+}
+
+#training_resources_background_image
+{
+	
+	height: 80%;
+	width:100%;
+	
+}
+
+#chat_now
+{
+	float: left;
+	/*position:relative;
+	top:100px;
+	left:90px;*/
+	position:absolute;
+	top:185%;
+	left:85%;
+	
+	background: red;
+	color:white;
+	border-style: none;
+	/*width:150px;*/
+	border-radius: 8%;
+	height:5%;
+	width: 15%;
+	/*
+	height:35px;*/
+
+	font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+
+
+
+#services_image
+{
+	height:80%;
+	width:100%;
+}
+
+#who_we_are_image
+{
+	height:80%;
+	width:100%;
+
+}
+
+
+
+
+
+/* START OF FOOTER SECTION */
+
+
+#footer_background_image_div
+{
+	float: left;
+	height: 90%;
+	width: 100%;
+	
+}
+
+
+
+
+#footer_background_image_div ul 
+{
+	list-style: none;	
+}
+
+
+#footer_background_image_div ul li a
+{
+	/*float:left;
+	padding-top: 20px;
+	padding-left: 35px;
+	line-height: 1.063;
+	text-decoration: none;
+	color:white;	
+	font-family: "Titillium";*/
+	float: none;
+	display: block;
+	position: relative;
+	left: 25%;
+}
+.black 
+{
+	display: none;
+}
+
+/*
+#footer_products
+{
+	padding-left: 140px;
+	color:white;	
+}
+
+
+#footer_services
+{
+	padding-left: 120px;
+	color:white;
+}
+
+#footer_training_resources
+{
+	color:white;	
+	
+}
+
+#footer_who_we_are
+{
+	color:white;
+}
+
+
+#footer_contact
+{
+	color:white;
+}
+
+#footer_catalog
+{
+	color:red;
+}
+
+#footer_careers
+{
+	color:black;
+}
+#footer_maintenance_plans
+{
+	color:black;
+}
+
+*/
+
+
+}/*close of media csss */
+
+
+
+
+
+
